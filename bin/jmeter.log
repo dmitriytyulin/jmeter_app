@@ -1,22 +1,108 @@
-2020-12-09 15:23:36,193 INFO o.a.j.u.JMeterUtils: Setting Locale to en_GB
-2020-12-09 15:23:36,201 INFO o.a.j.JMeter: Loading user properties from: user.properties
-2020-12-09 15:23:36,202 INFO o.a.j.JMeter: Loading system properties from: system.properties
-2020-12-09 15:23:36,204 INFO o.a.j.JMeter: Copyright (c) 1998-2020 The Apache Software Foundation
-2020-12-09 15:23:36,204 INFO o.a.j.JMeter: Version 5.3
-2020-12-09 15:23:36,204 INFO o.a.j.JMeter: java.version=1.8.0_271
-2020-12-09 15:23:36,204 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) Client VM
-2020-12-09 15:23:36,204 INFO o.a.j.JMeter: os.name=Windows 10
-2020-12-09 15:23:36,204 INFO o.a.j.JMeter: os.arch=x86
-2020-12-09 15:23:36,204 INFO o.a.j.JMeter: os.version=10.0
-2020-12-09 15:23:36,204 INFO o.a.j.JMeter: file.encoding=Cp1252
-2020-12-09 15:23:36,204 INFO o.a.j.JMeter: java.awt.headless=null
-2020-12-09 15:23:36,204 INFO o.a.j.JMeter: Max memory     =259522560
-2020-12-09 15:23:36,204 INFO o.a.j.JMeter: Available Processors =8
-2020-12-09 15:23:36,207 INFO o.a.j.JMeter: Default Locale=English (United Kingdom)
-2020-12-09 15:23:36,207 INFO o.a.j.JMeter: JMeter  Locale=English (United Kingdom)
-2020-12-09 15:23:36,207 INFO o.a.j.JMeter: JMeterHome=C:\Users\Dmitriy Tyulin\Desktop\apache-jmeter-5.3
-2020-12-09 15:23:36,207 INFO o.a.j.JMeter: user.dir  =C:\Users\Dmitriy Tyulin\Desktop\apache-jmeter-5.3\bin
-2020-12-09 15:23:36,208 INFO o.a.j.JMeter: PWD       =C:\Users\Dmitriy Tyulin\Desktop\apache-jmeter-5.3\bin
-2020-12-09 15:23:36,209 INFO o.a.j.JMeter: IP: 192.168.223.94 Name: LP10050 FullName: LP10050
-2020-12-09 15:23:36,292 INFO o.a.j.JMeter: Setting LAF to: com.github.weisj.darklaf.DarkLaf:com.github.weisj.darklaf.theme.DarculaTheme
-2020-12-09 15:23:36,439 INFO o.a.j.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties
+2020-12-15 14:34:58,102 INFO o.a.j.u.JMeterUtils: Setting Locale to en_GB
+2020-12-15 14:34:58,111 INFO o.a.j.JMeter: Loading user properties from: user.properties
+2020-12-15 14:34:58,111 INFO o.a.j.JMeter: Loading system properties from: system.properties
+2020-12-15 14:34:58,113 INFO o.a.j.JMeter: Copyright (c) 1998-2020 The Apache Software Foundation
+2020-12-15 14:34:58,113 INFO o.a.j.JMeter: Version 5.3
+2020-12-15 14:34:58,113 INFO o.a.j.JMeter: java.version=1.8.0_271
+2020-12-15 14:34:58,113 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) Client VM
+2020-12-15 14:34:58,113 INFO o.a.j.JMeter: os.name=Windows 10
+2020-12-15 14:34:58,113 INFO o.a.j.JMeter: os.arch=x86
+2020-12-15 14:34:58,113 INFO o.a.j.JMeter: os.version=10.0
+2020-12-15 14:34:58,113 INFO o.a.j.JMeter: file.encoding=Cp1252
+2020-12-15 14:34:58,113 INFO o.a.j.JMeter: java.awt.headless=null
+2020-12-15 14:34:58,113 INFO o.a.j.JMeter: Max memory     =259522560
+2020-12-15 14:34:58,113 INFO o.a.j.JMeter: Available Processors =8
+2020-12-15 14:34:58,116 INFO o.a.j.JMeter: Default Locale=English (United Kingdom)
+2020-12-15 14:34:58,116 INFO o.a.j.JMeter: JMeter  Locale=English (United Kingdom)
+2020-12-15 14:34:58,116 INFO o.a.j.JMeter: JMeterHome=C:\Users\Dmitriy Tyulin\Desktop\apache-jmeter-5.3
+2020-12-15 14:34:58,116 INFO o.a.j.JMeter: user.dir  =C:\Users\Dmitriy Tyulin\Desktop\apache-jmeter-5.3\bin
+2020-12-15 14:34:58,116 INFO o.a.j.JMeter: PWD       =C:\Users\Dmitriy Tyulin\Desktop\apache-jmeter-5.3\bin
+2020-12-15 14:34:58,117 INFO o.a.j.JMeter: IP: 192.168.0.104 Name: LP10050 FullName: LP10050
+2020-12-15 14:34:58,158 INFO o.a.j.JMeter: Setting LAF to: com.github.weisj.darklaf.DarkLaf:com.github.weisj.darklaf.theme.DarculaTheme
+2020-12-15 14:34:58,267 INFO o.a.j.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties
+2020-12-15 14:35:07,675 INFO o.a.j.s.FileServer: Default base='C:\Users\Dmitriy Tyulin\Desktop\apache-jmeter-5.3\bin'
+2020-12-15 14:35:07,678 INFO o.a.j.g.a.Load: Loading file: C:\Users\Dmitriy Tyulin\Desktop\JMeter_Tests\HTTP Request.jmx
+2020-12-15 14:35:07,678 INFO o.a.j.s.FileServer: Set new base='C:\Users\Dmitriy Tyulin\Desktop\JMeter_Tests'
+2020-12-15 14:35:07,781 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2020-12-15 14:35:07,798 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2020-12-15 14:35:07,799 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2020-12-15 14:35:07,801 INFO o.a.j.s.SaveService: Loading file: C:\Users\Dmitriy Tyulin\Desktop\JMeter_Tests\HTTP Request.jmx
+2020-12-15 14:35:07,823 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-12-15 14:35:07,823 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-12-15 14:35:07,823 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-12-15 14:35:07,823 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-12-15 14:35:07,823 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2020-12-15 14:35:07,823 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2020-12-15 14:35:07,915 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2020-12-15 14:35:07,915 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2020-12-15 14:35:07,915 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2020-12-15 14:35:07,915 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2020-12-15 14:35:08,584 INFO o.a.j.s.FileServer: Set new base='C:\Users\Dmitriy Tyulin\Desktop\JMeter_Tests'
+2020-12-15 14:35:17,337 INFO o.a.j.e.DistributedRunner: Configuring remote engine: 192.168.180.248
+2020-12-15 14:35:39,125 ERROR o.a.j.e.DistributedRunner: Failed to create engine at 192.168.180.248
+java.rmi.ConnectException: Connection refused to host: 192.168.180.248; nested exception is: 
+	java.net.ConnectException: Connection timed out: connect
+	at sun.rmi.transport.tcp.TCPEndpoint.newSocket(Unknown Source) ~[?:1.8.0_271]
+	at sun.rmi.transport.tcp.TCPChannel.createConnection(Unknown Source) ~[?:1.8.0_271]
+	at sun.rmi.transport.tcp.TCPChannel.newConnection(Unknown Source) ~[?:1.8.0_271]
+	at sun.rmi.server.UnicastRef.newCall(Unknown Source) ~[?:1.8.0_271]
+	at sun.rmi.registry.RegistryImpl_Stub.lookup(Unknown Source) ~[?:1.8.0_271]
+	at org.apache.jmeter.engine.ClientJMeterEngine.getEngine(ClientJMeterEngine.java:71) ~[ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.engine.ClientJMeterEngine.<init>(ClientJMeterEngine.java:84) ~[ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.engine.DistributedRunner.createEngine(DistributedRunner.java:243) ~[ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.engine.DistributedRunner.getClientEngine(DistributedRunner.java:220) ~[ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.engine.DistributedRunner.init(DistributedRunner.java:93) ~[ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.gui.action.RemoteStart.doAction(RemoteStart.java:79) ~[ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.gui.action.ActionRouter.performAction(ActionRouter.java:87) ~[ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.gui.action.ActionRouter.lambda$actionPerformed$0(ActionRouter.java:69) ~[ApacheJMeter_core.jar:5.3]
+	at java.awt.event.InvocationEvent.dispatch(Unknown Source) [?:1.8.0_271]
+	at java.awt.EventQueue.dispatchEventImpl(Unknown Source) [?:1.8.0_271]
+	at java.awt.EventQueue.access$500(Unknown Source) [?:1.8.0_271]
+	at java.awt.EventQueue$3.run(Unknown Source) [?:1.8.0_271]
+	at java.awt.EventQueue$3.run(Unknown Source) [?:1.8.0_271]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_271]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source) [?:1.8.0_271]
+	at java.awt.EventQueue.dispatchEvent(Unknown Source) [?:1.8.0_271]
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source) [?:1.8.0_271]
+	at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source) [?:1.8.0_271]
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source) [?:1.8.0_271]
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source) [?:1.8.0_271]
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source) [?:1.8.0_271]
+	at java.awt.EventDispatchThread.run(Unknown Source) [?:1.8.0_271]
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method) ~[?:1.8.0_271]
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source) ~[?:1.8.0_271]
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source) ~[?:1.8.0_271]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source) ~[?:1.8.0_271]
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source) ~[?:1.8.0_271]
+	at java.net.PlainSocketImpl.connect(Unknown Source) ~[?:1.8.0_271]
+	at java.net.SocksSocketImpl.connect(Unknown Source) ~[?:1.8.0_271]
+	at java.net.Socket.connect(Unknown Source) ~[?:1.8.0_271]
+	at sun.security.ssl.SSLSocketImpl.connect(Unknown Source) ~[?:1.8.0_271]
+	at sun.security.ssl.SSLSocketImpl.<init>(Unknown Source) ~[?:1.8.0_271]
+	at sun.security.ssl.SSLSocketFactoryImpl.createSocket(Unknown Source) ~[?:1.8.0_271]
+	at org.apache.jmeter.rmi.SSLRMIClientSocketFactory.createSocket(SSLRMIClientSocketFactory.java:117) ~[ApacheJMeter_core.jar:5.3]
+	... 27 more
+2020-12-15 14:35:44,869 INFO o.a.j.e.DistributedRunner: Failed to configure 192.168.180.248
+2020-12-15 14:35:44,869 INFO o.a.j.e.DistributedRunner: Stopping remote engines
+2020-12-15 14:35:44,869 INFO o.a.j.e.DistributedRunner: Remote engines have been stopped
+2020-12-15 14:35:44,869 ERROR o.a.j.g.a.ActionRouter: Error processing org.apache.jmeter.gui.action.RemoteStart@1568159
+java.lang.RuntimeException: Following remote engines could not be configured:[192.168.180.248]
+	at org.apache.jmeter.engine.DistributedRunner.init(DistributedRunner.java:112) ~[ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.gui.action.RemoteStart.doAction(RemoteStart.java:79) ~[ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.gui.action.ActionRouter.performAction(ActionRouter.java:87) ~[ApacheJMeter_core.jar:5.3]
+	at org.apache.jmeter.gui.action.ActionRouter.lambda$actionPerformed$0(ActionRouter.java:69) ~[ApacheJMeter_core.jar:5.3]
+	at java.awt.event.InvocationEvent.dispatch(Unknown Source) [?:1.8.0_271]
+	at java.awt.EventQueue.dispatchEventImpl(Unknown Source) [?:1.8.0_271]
+	at java.awt.EventQueue.access$500(Unknown Source) [?:1.8.0_271]
+	at java.awt.EventQueue$3.run(Unknown Source) [?:1.8.0_271]
+	at java.awt.EventQueue$3.run(Unknown Source) [?:1.8.0_271]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_271]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source) [?:1.8.0_271]
+	at java.awt.EventQueue.dispatchEvent(Unknown Source) [?:1.8.0_271]
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source) [?:1.8.0_271]
+	at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source) [?:1.8.0_271]
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source) [?:1.8.0_271]
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source) [?:1.8.0_271]
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source) [?:1.8.0_271]
+	at java.awt.EventDispatchThread.run(Unknown Source) [?:1.8.0_271]

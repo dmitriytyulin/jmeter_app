@@ -16,10 +16,10 @@
         <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
         <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
           <boolProp name="LoopController.continue_forever">false</boolProp>
-          <stringProp name="LoopController.loops">1</stringProp>
+          <intProp name="LoopController.loops">-1</intProp>
         </elementProp>
-        <stringProp name="ThreadGroup.num_threads">2000</stringProp>
-        <stringProp name="ThreadGroup.ramp_time">30</stringProp>
+        <stringProp name="ThreadGroup.num_threads">10000</stringProp>
+        <stringProp name="ThreadGroup.ramp_time">250</stringProp>
         <boolProp name="ThreadGroup.scheduler">false</boolProp>
         <stringProp name="ThreadGroup.duration"></stringProp>
         <stringProp name="ThreadGroup.delay"></stringProp>
@@ -1514,11 +1514,11 @@
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
             <collectionProp name="Arguments.arguments"/>
           </elementProp>
-          <stringProp name="HTTPSampler.domain">azi-dev-api.eddev.lab</stringProp>
+          <stringProp name="HTTPSampler.domain">192.168.180.170</stringProp>
           <stringProp name="HTTPSampler.port">7070</stringProp>
           <stringProp name="HTTPSampler.protocol">http</stringProp>
           <stringProp name="HTTPSampler.contentEncoding"></stringProp>
-          <stringProp name="HTTPSampler.path">/api/dict/regions</stringProp>
+          <stringProp name="HTTPSampler.path">/api/tickets?mainPage=true&amp;operator=test9697&amp;sortBy=TIMEDESC</stringProp>
           <stringProp name="HTTPSampler.method">GET</stringProp>
           <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
           <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
@@ -1533,7 +1533,7 @@
             <collectionProp name="HeaderManager.headers">
               <elementProp name="" elementType="Header">
                 <stringProp name="Header.name">Authorization</stringProp>
-                <stringProp name="Header.value">Bearer eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJidUpzVUNHaE44V0JrdnBZd1BYeC1DaDdhRmhyVGc1Ry0taWJoYXBGLVJjIn0.eyJleHAiOjE2MDc0NDQ4MDEsImlhdCI6MTYwNzQwODgwMSwianRpIjoiYjVkMjRlMWQtYTI2OS00OTRmLThkZjAtMTk2OTJiYzNlOGIxIiwiaXNzIjoiaHR0cDovLzE5Mi4xNjguOTAuMTMxOjcwNzEvYXV0aC9yZWFsbXMvbWFzdGVyIiwiYXVkIjoiYXplcmlzaGlnZGVtbyIsInN1YiI6ImM4ZDZkYzY2LTJkMTktNDVjNi05YjkzLWVkZmNkYjg2YjkyNCIsInR5cCI6IkJlYXJlciIsImF6cCI6ImF6ZXJpc2hpZ2RlbW8iLCJzZXNzaW9uX3N0YXRlIjoiODQ1M2QwMGYtZjE0My00ZDUwLTk3YWMtZjdlYjg5Y2Q1OGE5IiwiYWNyIjoiMSIsInJlYWxtX2FjY2VzcyI6eyJyb2xlcyI6WyJvZmZsaW5lX2FjY2VzcyIsImFuYWx5c3QiLCJ1bWFfYXV0aG9yaXphdGlvbiJdfSwicmVzb3VyY2VfYWNjZXNzIjp7ImFjY291bnQiOnsicm9sZXMiOlsibWFuYWdlLWFjY291bnQiLCJtYW5hZ2UtYWNjb3VudC1saW5rcyIsInZpZXctcHJvZmlsZSJdfX0sImF1dGhvcml6YXRpb24iOnsicGVybWlzc2lvbnMiOlt7InJzaWQiOiI1Y2UwZGEwMy02ZjRjLTQ2OGItODI2My1mMWRlM2M5YzBjMjciLCJyc25hbWUiOiJEZWZhdWx0IFJlc291cmNlIn1dfSwic2NvcGUiOiJyZXBvcnRfdmlldyB0aWNrZXRfc3lzdGVtX3BhZ2VfYW5hbHlzdCBwcm9maWxlIHB1c2hfbm90aWZpY2F0aW9uX2FsZXJ0X3JlYWQiLCJuYW1lIjoiQWtzaGluIFRhbGlib3YiLCJwcmVmZXJyZWRfdXNlcm5hbWUiOiJhbmFseXN0IiwiZ2l2ZW5fbmFtZSI6IkFrc2hpbiIsImZhbWlseV9uYW1lIjoiVGFsaWJvdiJ9.kMWHSH0xJhnX8evft15f11A9yNjno-zMuZagMcdwxD6yLXQMC9clcR1VZ91LcDictTVbz3JH2FCxm_BUbS-DSv0WM5dimEonTxV4ovNarDuMUox16IvAccmU-e9a2S0wuGFGc6x-ehd_PrGdoe8zdgql89xBjyshzIBHHjNGoJhECOC91BB38Xo2W32qgjsGwWRr31r9TrpcC1TwVVll3sXtFIF-8sEuJxQDoMmnW7_lQn0k99WrstxfJcJwQgO8TfVQ-IHINChQTOnQy8__DKpsQ_0uhciu7JZHO8CrWIbGJbNyAIYRdaDUehmLKtgwXdMtL4UPjPvl3fWJ8Rd0Cw</stringProp>
+                <stringProp name="Header.value">Bearer eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJIWk9Kc2xOcXdMLVNybGRnRHFONV9tZEJFQ0l0RFNiRUFwOXB6Wm1JLUJJIn0.eyJleHAiOjE2MDgwNTY4MDYsImlhdCI6MTYwODAyMDgwNiwianRpIjoiNmNhY2UwMTktNjY3MS00OWI2LWJlMTctMzNhNzM0MmZlMWY3IiwiaXNzIjoiaHR0cDovLzE5Mi4xNjguMTgwLjE2ODo3MDcxL2F1dGgvcmVhbG1zL21hc3RlciIsImF1ZCI6ImF6ZXJpc2hpZzE5OSIsInN1YiI6ImZjNDczOTgzLTEyZDUtNDUyYy05MjBkLWMxZjRkZGY0MDA1YSIsInR5cCI6IkJlYXJlciIsImF6cCI6ImF6ZXJpc2hpZzE5OSIsInNlc3Npb25fc3RhdGUiOiIwMTExYzBhYi1mZTdmLTQ2NWItYWRkZi0wOWZmZGUzMDM4NTEiLCJhY3IiOiIxIiwicmVhbG1fYWNjZXNzIjp7InJvbGVzIjpbIm9mZmxpbmVfYWNjZXNzIiwidW1hX2F1dGhvcml6YXRpb24iLCJvcGVyYXRvciJdfSwicmVzb3VyY2VfYWNjZXNzIjp7ImFjY291bnQiOnsicm9sZXMiOlsibWFuYWdlLWFjY291bnQiLCJtYW5hZ2UtYWNjb3VudC1saW5rcyIsInZpZXctcHJvZmlsZSJdfX0sImF1dGhvcml6YXRpb24iOnsicGVybWlzc2lvbnMiOlt7InJzaWQiOiI1Y2UwZGEwMy02ZjRjLTQ2OGItODI2My1mMWRlM2M5YzBjMjciLCJyc25hbWUiOiJEZWZhdWx0IFJlc291cmNlIn1dfSwic2NvcGUiOiJzZW5kX3NtcyBwdXNoX25vdGlmaWNhdGlvbl9hbGVydF9yZWFkIHByb2ZpbGUgYXBwZWFsX2NyZWF0ZSBmYXFfc21zIG1haW5fcGFnZV9vcGVyYXRvciBhcHBlYWxfdmlldyB0aWNrZXRfc3lzdGVtX3BhZ2Vfb3BlcmF0b3IgY2FuX29wZW5fdGlja2V0IGZhcV9yZWFkIiwibmFtZSI6InRlc3QgOTY5NyIsInByZWZlcnJlZF91c2VybmFtZSI6InRlc3Q5Njk3IiwiZ2l2ZW5fbmFtZSI6InRlc3QiLCJmYW1pbHlfbmFtZSI6Ijk2OTcifQ.NRpfk32AV702ClfYuoZTEVZIbuo665DqRRlIl-XvnxdmbPcvh1rk9l7V1l3tfJ3RLnGVyi89gOoQ9jB-xHpeJcRIZISdNtDE5zv3z6vxL2iZOCAubU2AddRKDsBnR0BkW4IYrDMzAHO7AdK3GgKXAJ8rKZ-4ytEiQET7Y7eZ0O2NDwCCPCKu5wStPFZ4Pioil7p1rSIBdw2rQRI5He1IkFMpIpbVTa6Mdu-OIoBHJxxXpPJ3vpmeILtaGpJDX6XhjHEYL1Yx9i10x5V6bCJLAV3JA1GfeLhZCtFFRVIb0Z6t27HSszTTJLphHRQo9mfHlrtkIQA5v3-EEArw76Z7pg</stringProp>
               </elementProp>
             </collectionProp>
           </HeaderManager>

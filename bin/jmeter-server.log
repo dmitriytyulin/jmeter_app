@@ -1,0 +1,33 @@
+2020-12-15 14:46:14,725 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2020-12-15 14:46:14,733 INFO o.a.j.JMeter: Loading user properties from: user.properties
+2020-12-15 14:46:14,734 INFO o.a.j.JMeter: Loading system properties from: system.properties
+2020-12-15 14:46:14,735 INFO o.a.j.JMeter: Copyright (c) 1998-2020 The Apache Software Foundation
+2020-12-15 14:46:14,735 INFO o.a.j.JMeter: Version 5.3
+2020-12-15 14:46:14,736 INFO o.a.j.JMeter: java.version=1.8.0_271
+2020-12-15 14:46:14,736 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) Client VM
+2020-12-15 14:46:14,736 INFO o.a.j.JMeter: os.name=Windows 10
+2020-12-15 14:46:14,744 INFO o.a.j.JMeter: os.arch=x86
+2020-12-15 14:46:14,744 INFO o.a.j.JMeter: os.version=10.0
+2020-12-15 14:46:14,744 INFO o.a.j.JMeter: file.encoding=Cp1252
+2020-12-15 14:46:14,744 INFO o.a.j.JMeter: java.awt.headless=true
+2020-12-15 14:46:14,744 INFO o.a.j.JMeter: Max memory     =1073741824
+2020-12-15 14:46:14,744 INFO o.a.j.JMeter: Available Processors =8
+2020-12-15 14:46:14,750 INFO o.a.j.JMeter: Default Locale=English (EN)
+2020-12-15 14:46:14,750 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2020-12-15 14:46:14,750 INFO o.a.j.JMeter: JMeterHome=C:\Users\Dmitriy Tyulin\Desktop\apache-jmeter-5.3
+2020-12-15 14:46:14,750 INFO o.a.j.JMeter: user.dir  =C:\Users\Dmitriy Tyulin\Desktop\apache-jmeter-5.3\bin
+2020-12-15 14:46:14,751 INFO o.a.j.JMeter: PWD       =C:\Users\Dmitriy Tyulin\Desktop\apache-jmeter-5.3\bin
+2020-12-15 14:46:14,757 INFO o.a.j.JMeter: IP: 192.168.223.132 Name: LP10050 FullName: LP10050
+2020-12-15 14:46:14,766 INFO o.a.j.r.RmiUtils: System property 'java.rmi.server.hostname' is not defined, using localHost address
+2020-12-15 14:46:14,766 INFO o.a.j.r.RmiUtils: Local IP address=192.168.223.132
+2020-12-15 14:46:15,649 INFO o.a.j.r.SSLRMIServerSocketFactory: Created SSLSocket: [SSL: ServerSocket[addr=LP10050/192.168.223.132,localport=62017]]
+2020-12-15 14:46:15,655 INFO o.a.j.e.RemoteJMeterEngineImpl: Starting backing engine on 1099
+2020-12-15 14:46:15,655 INFO o.a.j.r.RmiUtils: System property 'java.rmi.server.hostname' is not defined, using localHost address
+2020-12-15 14:46:15,655 INFO o.a.j.r.RmiUtils: Local IP address=192.168.223.132
+2020-12-15 14:46:15,655 INFO o.a.j.e.RemoteJMeterEngineImpl: IP address is a site-local address; this may cause problems with remote access.
+	Can be overridden by defining the system property 'java.rmi.server.hostname' - see jmeter-server script file
+2020-12-15 14:46:15,655 INFO o.a.j.e.RemoteJMeterEngineImpl: Creating RMI registry (server.rmi.create=true)
+2020-12-15 14:46:15,655 INFO o.a.j.r.RmiUtils: System property 'java.rmi.server.hostname' is not defined, using localHost address
+2020-12-15 14:46:15,655 INFO o.a.j.r.RmiUtils: Local IP address=192.168.223.132
+2020-12-15 14:46:15,657 INFO o.a.j.r.SSLRMIServerSocketFactory: Created SSLSocket: [SSL: ServerSocket[addr=LP10050/192.168.223.132,localport=1099]]
+2020-12-15 14:46:15,657 INFO o.a.j.e.RemoteJMeterEngineImpl: Bound to RMI registry on port 1099
